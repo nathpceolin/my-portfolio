@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.header-menu a {
+  font-size: 18px;
+  line-height: 1.3;
+  text-decoration: none;
+  padding: 10px;
+  color: #1a1a1a;
+  display: block;
+}
+
+#nath-logo {
+  padding: 20px;
+}
+
+#introducao {
+  max-width: 1200px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  gap: 20px;
+  align-items: center;
+}
+
+#introducao h1 {
+  font-family: serif;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#introducao h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  background: url("deco.svg") no-repeat center;
+  top: -25px;
+  left: -50px;
+  z-index: -1;
+}
+
+#introducao p {
+  font-size: 18px;
+  color: #525252;
+}
+
+#photo {
+  border-radius: 120px;
+}
+
+#outras-infos {
+  display: flex;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 80px;
+}
+
+#outras-infos .idiomas,
+.skills,
+li {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+#formacao {
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+#formacao .curso {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#formacao h2 {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+#contato {
+  background-color: #333333;
+}
+
+h2.big {
+  font-size: 30px;
+}
+
+h2.small {
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  padding: 80px;
+  align-items: center;
+}
+
+.container .contato-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+#contato footer,
+a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
