@@ -118,6 +118,10 @@ li {
   flex-direction: column;
 }
 
+.curso-ano{
+  color: #525252;
+}
+
 #formacao h2 {
   max-width: 1200px;
   margin: 20px auto;
